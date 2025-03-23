@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Moukaramou ABIONAN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+            <div class="entete"><h1>ABIONAN <span class="highlight">MOUKARAMOU</span></h1></div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#projet">Projets</a></li>
+                <li><a href="#competence">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="accueil">
+        <div class="content">
+            <div class="text">
+                <p>Je suis <span class="highlight">Moukaramou</span>, Développeur en devenir passionné par le web et le design !</p>
+                <a href="#projet" class="btn">Voir mes projets</a>
+            </div>
+            <div class="image">
+                <img src="images/image_dev.jpg" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+    <section id="apropos">
+        <div class="content">
+            <div class="text">
+                <h2>À propos</h2>
+                <p>Je m’appelle <span class="highlight">Moukaramou ABIONAN</span>, passionné par la création de sites web modernes et interactifs.</p>
+                <p>Je suis actuellement étudiant(e) en <span class="highlight">développement web</span>, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                <p>J’adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p>
+                <a href="images/CV_Moukaramou.pdf" class="btn" download>Télécharger mon CV</a>
+            </div>
+            <div class="image">
+                <img src="images/dev_web.JPEG" alt="À propos">
+            </div>
+        </div>
+    </section>
+    <section id="projet">
+        <h2>Mes Projets</h2>
+    <div class="projects">
+        <div class="project-card">
+            <p>Un mini-jeu interactif en JavaScript qui utilise des événements DOM.</p>
+            <p class="tags">#html, #css, #js</p>
+            <a href="#" class="btn">Voir</a>
+        </div>
+        <div class="project-card">
+            <p>Un calculateur de prêt hypothécaire qui prend differentes valeurs.</p>
+            <p class="tags">#html, #css, #js</p>
+            <a href="#" class="btn">Voir</a>
+        </div>
+        <div class="project-card">
+            <p>Une Horloge en temps réel qui actualise l'heure système chaque  seconde.</p>
+            <p class="tags">#html, #css, #js</p>
+            <a href="#" class="btn">Voir</a>
+        </div>
+    </div>
+   </section>    
+   <section id="competence">
+    <h1>Mes Compétences</h1>
+    <div class="container">
+        <div class="skill-set">
+            <h2>Soft Skills</h2>
+            <div class="skill">
+                <div class="skill-name">
+                    <span>Gestion de projet</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">
+                    <span>Résolution de problème</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">
+                    <span>Adaptabilité</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skill-set">
+            <h2>Hard Skills</h2>
+            <div class="skill">
+                <div class="skill-name">
+                    <span>HTML</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">
+                    <span>CSS</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">
+                    <span>JavaScript</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">
+                    <span>VS Code</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 85%;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>    
+ <section id="contact">
+    <div class="container">
+        <h2>Vous avez un <span class="highlight">projet en tête ?</span></h2>
+        <p>N'hésitez pas à me <span class="highlight">contacter</span></p>
+        <form id="contactForm">
+            <div class="input-group">
+                <input type="text" id="prenom" placeholder="Votre prénom">
+                <input type="text" id="nom" placeholder="Votre nom">
+            </div>
+            <input type="text" id="sujet" placeholder="Votre sujet">
+            <textarea id="message" placeholder="Écrivez votre message ici"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+    </section>  
+    <footer>
+        <p>Designed by <span class="highlight">Moukaramou</span> with HTML CSS JS</p>
+        <p> Tous droits réservés - 2025</p>
+    </footer>   
+    <script src="script.js"></script>
+</body>
+</html>
+
